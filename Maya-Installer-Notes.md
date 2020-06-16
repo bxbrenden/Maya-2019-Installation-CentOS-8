@@ -1,17 +1,19 @@
 # Maya Installation on CentOS 8
+
 ## Overview
 The default installation instructions for Maya 2019 on a fresh install of CentOS 8 do not work as outlined.
 The installation is hardware-specific, and the instructions are unclear.
 This document shows my particular setup and may be helpful to others with similar ones.
+To install and troubleshoot Maya, I followed three documents: [1](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-E7E054E1-0E32-4B3C-88F9-BF820EB45BE5-htm.html) [2](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) [3](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2020/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html).
+
 
 ## Summary of Findings
-To install and troubleshoot Maya, I followed three documents: [1](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-E7E054E1-0E32-4B3C-88F9-BF820EB45BE5-htm.html) [2](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) [3](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2020/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html).
 
 ### Missing Dependencies not Mentioned
 The documents do mention that additional dependencies are required, but none of them mention the following, all of which were needed to run Maya successfully:
-- libprcre16
-- libssl
-- libpng15
+- `libprcre16`
+- `libssl`
+- `libpng15`
 
 ### Malformed GNOME Desktop File
 The desktop file that allows Maya to be launched from a `GNOME` desktop icon has a typo that says `UFT-8` instead of `UTF-8`.
