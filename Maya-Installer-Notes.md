@@ -2,7 +2,7 @@
 
 ## Overview
 The default installation instructions for Maya 2019 on a fresh install of CentOS 8 do not work as outlined.
-The installation is hardware-specific, and the instructions are unclear.
+Although the installation docs note that installations are hardware-specific, the instructions are generally unclear.
 This document shows the steps I took to install Maya as guided by the docs, as well as my recommendations for making the installation process less difficult.
 To install and troubleshoot Maya, I followed three documents: [1](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-E7E054E1-0E32-4B3C-88F9-BF820EB45BE5-htm.html) [2](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) [3](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2020/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html).
 
@@ -328,7 +328,7 @@ Once again, install the `x86_64 version`:
 ```
 Failed to apply color management settings on file open: Failed to finalize the color transform..
 ```
-![screenshot of Color Management error from Maya on first run]()
+![screenshot of Color Management error from Maya on first run](https://github.com/bxbrenden/Maya-Installation-Notes/blob/master/ColorManagementError.png)
 There is a [troubleshooting KB article](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/sfdcarticles/sfdcarticles/Failed-to-apply-color-management-settings-on-file-open.html) to fix this.
 
 
