@@ -18,7 +18,7 @@ The documents do mention that additional dependencies are required, but none of 
 The desktop file that allows Maya to be launched from a `GNOME` desktop icon has a typo that says `UFT-8` instead of `UTF-8`.
 After correcting all other issues, this was found not to be a problem, but it should be fixed anyway.
 
-### 2019 Installation instructions have 2018 information that breaks installation
+### 2019 Installation instructions have 2018 information that prevents registration, even with a valid license. 
 While following the official steps to register my Maya license with ADLM, I got an opaque `code 13` error and no contextual information.
 
 The actual issue appears to be that the command used for registration was copy-pasted from the 2018 guided and not updated accordingly. See step 12 for more details.
