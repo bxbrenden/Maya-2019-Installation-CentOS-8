@@ -21,7 +21,7 @@ After correcting all other issues, this was found not to be a problem, but it sh
 ### 2019 Installation instructions have 2018 information that prevents registration, even with a valid license. 
 While following the official steps to register my Maya license with ADLM, I got an opaque `code 13` error and no contextual information.
 
-The actual issue appears to be that the command used for registration was copy-pasted from the 2018 guide and not updated accordingly. See step 12 for more details.
+The actual issue appears to be that the command used for registration was copy-pasted from the 2018 guide and not updated accordingly. See step 12 in [Maya Installation](https://github.com/bxbrenden/Maya-Installation-Notes#maya-installation) for more details.
 
 ## Recommendations
 1. Make note of the required `libpcre16` and `libpng15` packages in the [Additional Linux Notes](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) and [Additional required Linux Packages for Maya installation](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) documents.
