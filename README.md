@@ -10,9 +10,8 @@ To install and troubleshoot Maya, I followed three documents: [1](https://knowle
 ## Summary of Findings
 
 ### Missing Dependencies not Mentioned
-The documents do mention that additional dependencies are required, but none of them mention the following, all of which were needed to run Maya successfully:
+The documents do mention that additional dependencies are required, but none of them mention the following, both of which were needed to run Maya successfully:
 - `libprcre16`
-- `libssl`
 - `libpng15`
 
 ### Malformed GNOME Desktop File
@@ -25,7 +24,7 @@ While following the official steps to register my Maya license with ADLM, I got 
 The actual issue appears to be that the command used for registration was copy-pasted from the 2018 guided and not updated accordingly. See step 12 for more details.
 
 ## Recommendations
-1. Make note of the required `libpcre16`, `libssl`, and `libpng15` packages in the [Additional Linux Notes](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) and [Additional required Linux Packages for Maya installation](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) documents.
+1. Make note of the required `libpcre16` and `libpng15` packages in the [Additional Linux Notes](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) and [Additional required Linux Packages for Maya installation](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) documents.
 2. Fix step 8 in the [Install Maya on Linux using the RPM Utility](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-E7E054E1-0E32-4B3C-88F9-BF820EB45BE5-htm.html) document.
 The correct instructions for standalone licensing should be:
 ```bash
