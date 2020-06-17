@@ -3,7 +3,8 @@
 ## Overview
 The default installation instructions for Maya 2019 on a fresh install of CentOS 8 do not work as outlined.
 Although the installation docs note that installations are hardware-specific, the instructions are generally unclear.
-This document shows the steps I took to install Maya as guided by the docs, as well as my recommendations for making the installation process less difficult.
+This document shows the steps I took to install Maya, as well as my recommendations for making the installation process less difficult.
+
 To install and troubleshoot Maya, I followed three documents:
 
 - [Install Maya on Linux using the RPM utility](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-E7E054E1-0E32-4B3C-88F9-BF820EB45BE5-htm.html)
