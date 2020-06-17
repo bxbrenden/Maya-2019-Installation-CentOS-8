@@ -147,6 +147,7 @@ MAYA_LICENSE_METHOD=standalone
 ```
 
 9. Run `glxinfo` to verify the OpenGL driver, vendor, and renderer.
+
 **NOTE**:Step 6 in the [documentation](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-E7E054E1-0E32-4B3C-88F9-BF820EB45BE5-htm.html) specifically says that the expected driver is **not** Mesa, but my output shows Mesa, so I will likely need to install additional drivers as mentioned on Maya's [Additonal Linux Notes](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968).
 ```bash
 [root@errmac Downloads]# glxinfo | egrep -i 'vendor|renderer|driver'
