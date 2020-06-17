@@ -44,7 +44,7 @@ Icon=Maya.png
 
 
 ## Maya Installation
-Steps to reproduce the issues:
+### Steps to reproduce the issues:
 1. Download official `Linux64` Maya installer from Autodesk.com.
 ```bash
 [brenden@errmac Downloads]$ sha256sum Autodesk_Maya_2019_Linux_64bit.tgz 
