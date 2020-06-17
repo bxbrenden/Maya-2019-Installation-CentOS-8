@@ -23,7 +23,7 @@ While following the official steps to register my Maya license with ADLM, I got 
 
 The actual issue appears to be that the command used for registration was copy-pasted from the 2018 guide and not updated accordingly. See step 12 in [Maya Installation](https://github.com/bxbrenden/Maya-Installation-Notes#maya-installation) for more details.
 
-## Recommendations to Autodesk Maya / ADLM Teams
+## Recommendations
 1. Make note of the required `libpcre16` and `libpng15` packages in the [Additional Linux Notes](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) and [Additional required Linux Packages for Maya installation](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html#GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F__GUID-39778FF7-0722-4992-A8F8-9F1F7C6FE968) documents. Installation of Maya on CentOS 8 does not work without them.
 2. Fix step 8 in the [Install Maya on Linux using the RPM Utility](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-E7E054E1-0E32-4B3C-88F9-BF820EB45BE5-htm.html) document.
 The correct instructions for standalone licensing should be:
@@ -320,15 +320,9 @@ Once again, install the `x86_64 version`:
 
 23. Follow the `Autodesk Licensing` dialog
 1. Click `I agree` to agree to the Terms of Service.
-2. A pop-up appears that says it's verifying the license, presumable from `license.env` created earlier.
+2. A pop-up appears that says it's verifying the license, presumably from `license.env` created earlier.
 
 24. Maya finally opens and runs!
-- Instantly there is a Color Management error that reads:
-```
-Failed to apply color management settings on file open: Failed to finalize the color transform..
-```
-![screenshot of Color Management error from Maya on first run](https://github.com/bxbrenden/Maya-Installation-Notes/blob/master/ColorManagementError.png)
-There is a [troubleshooting KB article](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/sfdcarticles/sfdcarticles/Failed-to-apply-color-management-settings-on-file-open.html) to fix this.
 
 
 ## CentOS 8 Operating System / Hardware Details
