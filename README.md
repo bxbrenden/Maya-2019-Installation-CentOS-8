@@ -1,4 +1,4 @@
-# Maya Installation on CentOS 8
+# Maya 2019 Installation on CentOS 8
 
 ## Overview
 The default installation instructions for Maya 2019 on a fresh install of CentOS 8 do not work as outlined.
